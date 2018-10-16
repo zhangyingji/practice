@@ -1,0 +1,183 @@
+/*  Zhang Yingji 14/5/2017 modifide for DaChaoYang
+	
+
+swatch colors
+================
+#4997f2 -- deep blue
+#027077 -- 
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: helvetica,arial,"微软雅黑","华文黑体";
+	font-size: 14px;
+}
+input {
+	border:none;
+	display: block;
+	float: left;
+}
+button {
+	border: none;
+}
+
+#page {
+	min-width: 900px;
+}
+#top {
+	background-color: #027077; 
+	height: 40px;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+#top h1 {
+	color: #fff;
+}
+#top_left{
+	width:300px;
+	float:left;
+}
+#top img {
+	width: 300px;
+}
+#top_right{
+	width:400px;
+	float:right;
+/*	margin:30px;*/
+	
+}
+#top_right img{
+	margin-top:5px;
+}
+#top_right a{
+	text-decoration:none;
+	color:#06F;
+}
+#top_right a:hover{
+	color:#909;
+}
+
+
+.clear{
+	clear:both;
+}
+
+
+/*#menu{
+	background-color:#1C3F09;
+	border-top:10px solid #82B211;
+	padding:0px;
+	margin-right: auto; 
+	margin-left: auto;
+	text-align:center;
+	min-width:1800px;
+}
+#menu a:hover{
+	color:#429;
+}
+#menu a{
+	margin:0px 5px;
+	color:#fff;
+	text-decoration:none;
+	font-style:bold;
+	font-size:15px;
+}
+#menu .all{
+	color: yellow;
+}*/
+
+
+#search {
+	width: 354px;
+	margin: 0 auto;
+	border: 2px solid #ff9900;
+/*	background-color: #027077;*/
+}
+.input {
+	width: 250px;
+	height: 36px;
+	padding: 0 10px;
+	font-size: 1em;
+	/*border: 2px solid #cccbcb;*/
+	letter-spacing: 1px;
+}
+#search button {
+	width: 84px;
+	height: 36px;
+	font-size: 16px;
+	letter-spacing: 5px;
+	cursor: pointer;
+	background-color: #ff9900;
+}
+
+
+#content {
+	width: 900px;
+	margin: 10px auto;
+}
+#content_top{
+	text-align:right;
+	font-size:13px;
+}
+#content_bottom{
+	border:1px solid #999;
+	background-color:#FCFDEF;
+	padding:10px 15px;
+}
+#content_bottom h1{
+	font-size:20px;
+	display:inline;
+}
+#content_bottom span{
+	font-size:12px;
+}
+#productlist_img img{
+	width:100%;
+}
+.book{
+	float:left;
+	width:25%;
+	text-align:center;
+	padding:10px 0px;
+}
+#jumppage{
+	text-align:center;
+	margin:10px;		
+}
+#jumppage a{
+	padding:4px 6px;
+	border:1px solid #2B66A5;
+	text-decoration: none;
+	color:#9AAFE5;
+}
+#jumppage a:hover{
+	color:#2B66A5;
+	border:1px solid #2B66A5;
+}
+
+#bottom {
+	background-color: #027077; 
+	height: 40px;
+	padding: 30px;
+}
+#bottom h1 {
+	color: #fff;
+	
+}
+
+/*#bottom_left{
+	width:400px;
+	float:left;
+	margin-left:200px;
+}
+#bottom_right{
+	width:500px;
+	float:left;
+	line-height:30px;
+}*/
+#body{
+	text-align:center;
+}

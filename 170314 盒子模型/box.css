@@ -1,0 +1,16 @@
+/* CSS Document */
+
+.box1{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #F00;
+	background-color: #CF9;
+	float: left;
+}
+.box2{
+	width: 150px;
+	height: 150px;
+	border: 1px solid #00F;
+	background-color: #ff6;
+	float: left;
+}

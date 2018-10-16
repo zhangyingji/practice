@@ -1,0 +1,86 @@
+/*  Zhang Yingji 6/5/2017 written for DaChaoYang
+	
+
+swatch colors
+================
+#f4f4f4 -- 背景浅灰
+#747474 -- 标题浅黒
+#cccbcb --
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #f4f4f4;
+	font-family: helvetica,arial,"微软雅黑","华文黑体";
+	font-size: 14px;
+}
+
+.wrap {
+	width: 400px;
+/*	height: 280px;*/
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 20px 0 50px 0; 
+	position: relative;
+	background: #fff;
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+
+}
+.logo img {
+	width: 60px;
+	height: 60px;
+}
+h1 {
+	margin: 20px 124px;
+	font-weight: normal;
+	font-size: 2em;
+	color: #747474;
+
+}
+.loginform {
+	width: 80%;
+	margin: 0 auto;
+}
+.inputBox {
+	width: 272px;
+	height: 42px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+.input {
+	width: 252px;
+	height: 36px;
+	padding: 0 10px;
+	font-size: 1em;
+	border: 1px solid #cccbcb;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+.buttonBox,
+.buttonB {
+	width: 272px;
+	margin: 0 auto;
+}
+.buttonB {
+	padding: 8px;
+	border: 1px solid #cccbcb;
+	border-radius: 5px;
+	background: #3399FF;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+
+}
+footer {
+	float: right;
+	margin-top: 2%;
+	margin-right: 16%;
+}
