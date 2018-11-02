@@ -1,11 +1,11 @@
-// 一层拷贝
+// 1 一层拷贝
 // var obj1 = { a: 10, b: 20, c: 30 };
 // var obj2 = Object.assign({}, obj1);
 // obj2.b = 100;
 // console.log(obj1);
 
 
-// 递归
+// 2 递归
 function deepClone(obj){
     let objClone = Array.isArray(obj) ? [] : {};
     if(obj && typeof obj === "object") {
@@ -30,7 +30,7 @@ a[0] = 2;
 console.log(a,b);
 
 
-// 借用JSON对象的parse和stringify
+// 3 借用JSON对象的parse和stringify
 // function deepClone(obj){
 //     let _obj = JSON.stringify(obj),
 //         objClone = JSON.parse(_obj);
@@ -44,7 +44,7 @@ console.log(a,b);
 // console.log(a,b);
 
 
-// 借用JQ的extend方法
+// 4 借用JQ的extend方法
 // let a = [0,1,[2,3],4],
 //     b = $.extend(true,[],a);
 // a[0] = 1;
@@ -52,7 +52,7 @@ console.log(a,b);
 // console.log(a,b);
 
 
-// 使用Object.create()方法
+// 5 使用Object.create()方法
 // function deepClone(initalObj, finalObj) {    
 //   var obj = finalObj || {};    
 //   for (var i in initalObj) {
