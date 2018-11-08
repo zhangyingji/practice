@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>闭包</title>
+</head>
+<body>
+	<h2>点击第n个div打印n</h2>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+</body>
+<script>
+	var nodes = document.getElementsByTagName('div');
+
+	// 点击每个div都弹出5
+	// onclick异步触发，for循环早已结束，i此时为5
+	// for(var i = 0, len = nodes.length; i < len; i++) {
+	// 	nodes[i].onclick = function(){
+	// 		alert(i); 
+	// 	}
+	// }
+
+	// 闭包
+	for(var i = 0, len = nodes.length; i < len; i++) {
+		(function(i){
+			nodes[i].onclick = function(){
+			console.log(i); 
+			}
+		})(i)
+	};
+</script>
+</html>
